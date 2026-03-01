@@ -17,6 +17,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
+          token: ${{ secrets.PAT_TOKEN }}
           submodules: recursive # Checks out the submodule
           fetch-depth: 0 # Ensure full history for submodule push
 
