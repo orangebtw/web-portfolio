@@ -43,4 +43,4 @@ jobs:
           git config user.email "<>"
           git add .
           git commit -m "Deploy from GitHub Actions" || echo "No changes to commit"
-          git push # Pushes to the main branch of the public repo submodule
+          git push origin HEAD:main # Pushes to the main branch of the public repo submodule
