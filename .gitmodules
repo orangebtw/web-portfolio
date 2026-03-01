@@ -2,3 +2,7 @@
 	path = themes/blowfish
 	url = https://github.com/nunocoracao/blowfish.git
 	branch = main
+[submodule "public"]
+	path = public
+	url = git@orangebtw.github.com:orangebtw/orangebtw.github.io.git
+	branch = main
