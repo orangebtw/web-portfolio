@@ -4,5 +4,5 @@
 	branch = main
 [submodule "public"]
 	path = public
-	url = git@orangebtw.github.com:orangebtw/orangebtw.github.io.git
+	url = https://github.com/orangebtw/orangebtw.github.io.git
 	branch = main
